@@ -5,12 +5,33 @@
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
 
-## Project Overview
+## Project Overview :
 In this project, we  learned how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ![Sample Output][image1]
 
-I used VGG16 pretrained model for transfer learning. I freeze all the conv layer of model and changed last fully connected layer to map our output size and then train the model for classification.
+## My Goals & Motivation :
+- to create image clssification model from scrach and from pretrained models.
+- to compare the results between them.
+- to explore different techniques for data agumentation.
+- to get an understanding opencv and haarcascade features and pytorch framework.
+
+## Files Description :
+### dog_app.ipynb :
+	- It contains all the code which were used to create and train the model from scrach and from pretraind model. It also contains the testing of those trained models.
+### haarcascades :
+	- This folder contains haarcasecade features of front face which are used to detect front face in an image.
+### images :
+	- This folder contains some testing images which can be used to test the model.
+
+
+## Libraries used :
+- pytorch = As a deep learning framework.
+- numpy = for array manipulation.
+- opencv(cv2) = to load images and their manipulation.
+- matplotlib = for plot an image.
+- torchvision = To get pretarined model and image transformation and loading.
+	
 
 ## Project Instructions
 
@@ -99,17 +120,4 @@ jupyter notebook dog_app.ipynb
 
 12. (Optional) **If you are running the project on your local machine (and not using AWS)**, before running code, change the kernel to match the dog-project environment by using the drop-down menu (**Kernel > Change kernel > dog-project**). Then, follow the instructions in the notebook.
 
-__NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
-## Evaluation
-
-Your project will be reviewed by a Udacity reviewer against the CNN project [rubric](https://review.udacity.com/#!/rubrics/810/view).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
-
-## Project Submission
-
-When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
-- The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
-- An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
-- Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `dogImages/` or `lfw/` folders.  Likewise, please do not include the `bottleneck_features/` folder.__
-
-Alternatively, your submission could consist of the GitHub link to your repository.
