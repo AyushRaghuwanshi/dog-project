@@ -30,6 +30,7 @@ Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)<br>
 Step 5: Write your Algorithm<br>
 Step 6: Test Your Algorithm<br>
 
+Step 0: Import Datasets<br>
 In this code cell, we save the file paths for both the human (LFW) dataset and dog dataset in the NumPy arrays human_files and dog_files.<br><br>
 Step 1: Detect Humans<br>
 As we know OpenCV provides many pre-trained face detectors, stored as XML files. I had downloaded one of these detectors and stored it in the haarcascades directory. I used that haar cascade feature to detect faces in an image.<br>
