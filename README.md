@@ -8,6 +8,7 @@
 
 
 ## Project Overview :
+Medium blog post link = https://medium.com/@ayushraghuwanshi98/dog-breed-classifier-dsnd-capstone-project-9eb710431be0?source=friends_link&sk=214d824c29471d7f9e3f194fa74ec3ba.<br><br>
 In this project, we  learned how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ![Sample Output][image1]
